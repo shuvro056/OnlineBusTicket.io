@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+.mid{
+	margin:auto;
+	width:80%;
+}
+body{
+	background-color:#E8E8FF;
+}
+.header .logo{
+	width:25%;
+	float:left;
+	overflow:hidden;
+}
+
+.header .logo img{
+	padding:2px;
+	display:block;
+}
+
+.header .menu{
+	width:68%;
+	float:left;
+	overflow:hidden;
+}
+
+.header .menu ul li {
+	display:inline-block;
+}
+
+.header .menu ul li a{
+	margin:30px 5px;
+	padding:10px 12px;
+	display:block;
+	color:#020B18;
+	transition:1s;
+}
+
+.header .menu ul li a:hover{
+	background-color:#020B18;
+	border-radius:5px;
+	color:#E8E8FF;
+} 
+
+hr {
+    float: left;
+    padding-top: 2px;
+    width: 100%;
+	background-color:#020B18;
+}
+
+.header :after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+
+.form_left{
+	width:50%;
+	float:left;
+	margin-top:10px;
+}
+.form_left input{
+	width:77%;
+	padding:5px;
+	display:block;
+	margin-bottom:5px;
+	color:#020B18;
+	margin-top:6px;
+}
+.form_left ul li:nth-child(3){
+	margin-top:20px;
+	padding:10px 0px;
+	display:block;
+	text-align:center;
+}
+
+.form_left label{
+	color:#020B18;
+	padding:5px;
+	display:block;
+}
+
+.form_right{
+	width:50%;
+	float:left;
+	margin-top:10px;
+}
+
+.slider .mid .slider_cont{
+	width:100%;
+	height:300px;
+}
+.slider_cont img{
+	width:100%;
+	height:300px;
+	display:block;
+}
+.form_right img{
+	height:400px;
+	display:block;
+}
+
+.purpose{
+	width:45%;
+	float:left;
+	margin-top:10px;
+}
+
+.purpose h3, p{
+	color:#020B18;
+	padding:5px;
+	display:block;
+}
+
+
+.comments{
+	width:45%;
+	height:150px;
+	float:left;
+}
+
+.Customer{
+	width:50%;
+	float:right;
+	margin-top:10px;
+}
+
+.Customer h3, p{
+	
+	color:#020B18;
+	padding:5px;
+	display:block;
+}
+.comment_purpose:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.bus_operator{
+	width:100%;
+	height:200px;
+}
+
+.bus_operator .box{
+	display:inline-block;
+	margin-right:30px;
+	padding:5px;
+	width:25%;
+	text-align:center;
+}
+
+.bus_operator .box p{
+	text-align:center;
+}
+
+.social .icon ul li{
+	display:inline-block;
+}
+
+.social .icon ul li a{
+	display:block;
+	padding:10px;
+	margin:10px;
+	font-size:25px;
+}
+
+.footer{
+	background-color:#020B18;
+	display:block;
+	padding:2px;
+	margin-bottom:8px;
+}
+.footer p{
+	color:#E8E8FF;
+	text-align:center;
+	
+}
+.button, input, optgroup, select, textarea{
+	text-align:center;
+}
+.select{
+	width:415px;
+}
+.button,
+select{
+	width:415px;
+}
+
+.ticket{
+	width:40%;
+	height:580px;
+	background-color:#FF9640;
+	float:left;
+	margin-bottom:15px;
+	display:block;
+}
+
+.ticket ul {
+	display:inline-block;
+	margin-top:15px;
+}
+
+.ticket ul li{
+	background-color:#A64B00;
+	margin-bottom:15px;
+	border:1px solid #FF7400;
+	border-radius:8px;
+	transition:2s;
+}
+
+.ticket ul li a{
+	font-size:20px;
+	font-style:italic;
+	color:#FFB273;
+	padding:10px;
+	display:block;
+	text-transform:uppercase;
+	transition:2s;
+}	
+
+.ticket ul li:hover{
+		background-color:#FF7400;
+}
+
+.ticket ul li a:hover{
+	color:#fff;
+	
+}
+
